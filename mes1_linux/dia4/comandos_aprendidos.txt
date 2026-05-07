@@ -1,0 +1,4 @@
+git init ----> Inicia el vigilante en tu carpeta
+git add . ----> Selecciona todo para fotografiarlo
+git commit -m "mensaje" ------> Toma foto con nombre
+git push origin main ----> Sube la foto a Github
