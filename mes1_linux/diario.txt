@@ -1,2 +1,3 @@
 Dia 4 :Aprendiendo Git
+Git es como una maquina del tiempo
 
