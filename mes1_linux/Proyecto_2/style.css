@@ -1,1 +1,37 @@
-/* Crea un estilo para un botón rojo con bordes redondeados y sombra */
+body {
+    font-family:sans-serif;
+    background-color: aquamarine;
+}
+.imaganes_conteiner{
+    margin: 100px auto ;
+    width: 500px;
+    display: flex;
+}
+
+.imaganes_conteiner .imagen{
+    position: relative;
+    margin-right:-20px;
+    display:inline-flex;
+    flex-direction: column;
+}
+
+.imaganes_conteiner .imagen img{
+    width: 50px;
+    height: 50px;
+}
+
+.imaganes_conteiner .imagen .nombre{
+    position: absolute;
+    background-color: #4f9e22;
+    border-radius: 5px;
+    color: white;
+    display: none;
+    min-width: 100px;
+    width: 150px;
+    top: -55px;
+    left: calc()
+}
+
+.imaganes_conteiner .imagen:hover .nombre{
+    display: flex;
+}
