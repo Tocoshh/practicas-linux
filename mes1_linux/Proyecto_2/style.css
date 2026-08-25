@@ -29,7 +29,8 @@ body {
     min-width: 100px;
     width: 150px;
     top: -55px;
-    left: calc()
+    left: calc(-50% - 30px);
+    padding: 10px 15px;
 }
 
 .imaganes_conteiner .imagen:hover .nombre{
