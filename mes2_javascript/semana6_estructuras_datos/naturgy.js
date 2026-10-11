@@ -8,3 +8,4 @@ const clientesCriticos = diasRetraso.filter( (retraso ) =>{
     return retraso > 30;
 })
 console.log(clientesCriticos);
+console.log("El total de clientes críticos es: " + clientesCriticos.length);
