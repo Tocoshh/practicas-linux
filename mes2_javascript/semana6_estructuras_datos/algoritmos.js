@@ -7,5 +7,5 @@
 const encontrarMayor = [12,15,46,89,3,69,2,19,14,26,33,700];
 let mayor = numeros[0];
 for (let i=0;i<encontrarMayor;i++){
-    
+    xd
 }
